@@ -3,8 +3,16 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="characters.js"></script>
+        <script src="timer.js" defer></script>
     </head>
     <body>
+        <h2>Timer</h2>
+        <h4>Enter number of seconds to countdown from:</h4>
+        <input id="secondsField" type="number">
+        <button id="startButton">Start</button>
+        <h1 id="timer">0</h1>
+        <button id="notify">Notify me in 5 seconds</button>
+        <button id="notifyRepeat" style="display: block;">Notify me every 10 seconds</button>
+        <button id="notifyStop">STOP NOTIFYING ME</button>
     </body>
 </html>
